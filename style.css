@@ -1,0 +1,35 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body {
+	font-size: 16px;
+	color: #ff0000;
+	background-image: url(/img/milk-background.png);
+	background-size: cover;
+	background-position: 50% 0;
+	width: 100vw;
+    height: 100vh;
+}
+
+#cow {
+	margin: auto;
+	padding-top: 20px;
+	width: 25%; 
+}
+.panache {
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+}
+#server {
+	padding: 20px;
+	width: 15%;
+}
+#megabytes {
+	padding: 20px;
+	width: 15%;
+}
